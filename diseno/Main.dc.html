@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap">
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Quicksand','Trebuchet MS',sans-serif;color:#33302B}
+    a{color:#2F6FB3}
+    a:hover{color:#22527F}
+    .ic{stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</helmet>
+
+<div style="width:1440px;height:900px;background:#F7F4EE;display:flex;flex-direction:column">
+
+  <div style="height:88px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 48px">
+    <div style="display:flex;align-items:center;gap:14px">
+      <div style="width:46px;height:46px;border-radius:14px;background:#2F6FB3;display:flex;align-items:center;justify-content:center;color:#fff">
+        <svg viewBox="0 0 24 24" width="26" height="26" class="ic"><path d="M12 7c-2-1.6-4.4-2.2-7-2v11c2.6-.2 5 .4 7 2"/><path d="M12 7c2-1.6 4.4-2.2 7-2v11c-2.6-.2-5 .4-7 2"/><path d="M12 7v11"/></svg>
+      </div>
+      <div style="font-size:25px;font-weight:700;letter-spacing:.04em">AULA</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:11px;height:60px;padding:0 24px;border-radius:16px;border:3px solid #E4DED3;background:#fff;font-size:21px;font-weight:600;color:#78736B">
+      <svg viewBox="0 0 24 24" width="23" height="23" class="ic"><path d="M4 8h8M17.5 8H20M4 16h3.5M13 16h7"/><circle cx="14" cy="8" r="2.6"/><circle cx="10" cy="16" r="2.6"/></svg>
+      Configuración
+    </div>
+  </div>
+
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center">
+    <div style="font-size:54px;font-weight:700;text-align:center;line-height:1.15">¿Con qué grupo vamos a trabajar?</div>
+    <div style="font-size:25px;color:#78736B;font-weight:600;margin-top:14px;margin-bottom:52px">Elige el grado para ver sus materias</div>
+
+    <div style="display:flex;gap:46px">
+
+      <div style="width:376px;height:398px;background:#fff;border:3px solid #E4DED3;border-radius:34px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:34px">
+        <div style="width:166px;height:166px;border-radius:50%;background:#DCEAF6;color:#2F6FB3;display:flex;align-items:center;justify-content:center;font-size:92px;font-weight:700;line-height:1">1</div>
+        <div style="font-size:40px;font-weight:700">Kínder 1</div>
+        <div style="font-size:23px;color:#78736B;font-weight:600">3 a 4 años · 5 materias</div>
+      </div>
+
+      <div style="width:376px;height:398px;background:#fff;border:3px solid #E4DED3;border-radius:34px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:34px">
+        <div style="width:166px;height:166px;border-radius:50%;background:#7FB0D9;color:#fff;display:flex;align-items:center;justify-content:center;font-size:92px;font-weight:700;line-height:1">2</div>
+        <div style="font-size:40px;font-weight:700">Kínder 2</div>
+        <div style="font-size:23px;color:#78736B;font-weight:600">4 a 5 años · 5 materias</div>
+      </div>
+
+      <div style="width:376px;height:398px;background:#fff;border:3px solid #E4DED3;border-radius:34px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:34px">
+        <div style="width:166px;height:166px;border-radius:50%;background:#2F6FB3;color:#fff;display:flex;align-items:center;justify-content:center;font-size:92px;font-weight:700;line-height:1">3</div>
+        <div style="font-size:40px;font-weight:700">Kínder 3</div>
+        <div style="font-size:23px;color:#78736B;font-weight:600">5 a 6 años · 5 materias</div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

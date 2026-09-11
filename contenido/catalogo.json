@@ -1,0 +1,52 @@
+{
+  "_nota": "Grados y materias de la app. Una materia solo aparece en un grado si esa carpeta tiene temas dentro.",
+
+  "grados": [
+    { "id": "kinder-1", "numero": 1, "nombre": "Kínder 1", "edades": "3 a 4 años", "oficial": "Prejardín" },
+    { "id": "kinder-2", "numero": 2, "nombre": "Kínder 2", "edades": "4 a 5 años", "oficial": "Jardín" },
+    { "id": "kinder-3", "numero": 3, "nombre": "Kínder 3", "edades": "5 a 6 años", "oficial": "Transición" }
+  ],
+
+  "materias": [
+    {
+      "id": "lenguaje",
+      "nombre": "Lenguaje",
+      "icono": "lenguaje",
+      "color": "#D2544A",
+      "tinte": "#FAEEEC",
+      "oscuro": "#A63C34"
+    },
+    {
+      "id": "matematicas",
+      "nombre": "Matemáticas",
+      "icono": "matematicas",
+      "color": "#2F6FB3",
+      "tinte": "#EAF1F9",
+      "oscuro": "#22527F"
+    },
+    {
+      "id": "exploracion",
+      "nombre": "Exploración del medio",
+      "icono": "exploracion",
+      "color": "#3E8E5A",
+      "tinte": "#EAF3ED",
+      "oscuro": "#2E6B43"
+    },
+    {
+      "id": "convivencia",
+      "nombre": "Convivencia y emociones",
+      "icono": "convivencia",
+      "color": "#7B5EA7",
+      "tinte": "#F1ECF7",
+      "oscuro": "#5D4482"
+    },
+    {
+      "id": "arte",
+      "nombre": "Arte y música",
+      "icono": "arte",
+      "color": "#C98A2E",
+      "tinte": "#F9F0E1",
+      "oscuro": "#96661D"
+    }
+  ]
+}

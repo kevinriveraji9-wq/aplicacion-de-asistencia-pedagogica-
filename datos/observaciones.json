@@ -1,0 +1,23 @@
+{
+  "_nota": "Anotaciones que el profesor pulsa para dejar constancia de algo sobre un niño. Son de tocar, no de escribir: en clase no hay teclado. Agrega o cambia las que uses de verdad — el orden aquí es el orden en pantalla.",
+
+  "observaciones": [
+    { "id": "participa", "tono": "logro", "texto": "Participó y quiso pasar al frente" },
+    { "id": "ayuda-companero", "tono": "logro", "texto": "Ayudó a un compañero" },
+    { "id": "solo", "tono": "logro", "texto": "Lo hizo solo, sin ayuda" },
+    { "id": "explico", "tono": "logro", "texto": "Supo explicar por qué" },
+
+    { "id": "repetir", "tono": "apoyo", "texto": "Necesita que le repitan la instrucción" },
+    { "id": "ejemplo", "tono": "apoyo", "texto": "Entiende mejor con un ejemplo primero" },
+    { "id": "acompanado", "tono": "apoyo", "texto": "Lo logra acompañado, aún no solo" },
+    { "id": "mas-tiempo", "tono": "apoyo", "texto": "Necesita más tiempo" },
+
+    { "id": "distrae", "tono": "conducta", "texto": "Se distrae con facilidad" },
+    { "id": "cansa", "tono": "conducta", "texto": "Se cansa antes de terminar" },
+    { "id": "timido", "tono": "conducta", "texto": "Le da pena pasar al frente" },
+    { "id": "inquieto", "tono": "conducta", "texto": "Estuvo inquieto hoy" },
+
+    { "id": "hablar-casa", "tono": "aviso", "texto": "Hablar con la familia" },
+    { "id": "revisar", "tono": "aviso", "texto": "Revisar de nuevo la próxima clase" }
+  ]
+}

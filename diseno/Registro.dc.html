@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap">
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Quicksand','Trebuchet MS',sans-serif;color:#33302B}
+    a{color:#2F6FB3}
+    a:hover{color:#22527F}
+    .ic{stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .lbl{font-size:15px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#2F6FB3}
+    .fila{width:100%;height:72px;background:#fff;border:3px solid #E4DED3;border-radius:18px;display:flex;align-items:center;gap:14px;padding:0 18px}
+    .nom{flex:1;font-size:23px;font-weight:700}
+    .btn{width:76px;height:50px;border-radius:14px;display:flex;align-items:center;justify-content:center;border:3px solid #E4DED3;background:#fff;color:#C6C0B5}
+  </style>
+</helmet>
+
+<div style="width:1440px;height:900px;background:#F7F4EE;display:flex;flex-direction:column">
+
+  <div style="height:88px;flex-shrink:0;background:#fff;border-bottom:3px solid #E4DED3;display:flex;align-items:center;gap:14px;padding:0 36px">
+    <div style="display:flex;align-items:center;gap:10px;height:60px;padding:0 24px;border-radius:16px;border:3px solid #E4DED3;font-size:21px;font-weight:700">
+      <svg viewBox="0 0 24 24" width="24" height="24" class="ic"><path d="M15 5l-7 7 7 7"/></svg>
+      Atrás
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;height:60px;padding:0 24px;border-radius:16px;border:3px solid #E4DED3;font-size:21px;font-weight:700">
+      <svg viewBox="0 0 24 24" width="24" height="24" class="ic"><path d="M3 11l9-7 9 7"/><path d="M5.5 9.6V20h13V9.6"/></svg>
+      Inicio
+    </div>
+    <div style="width:3px;height:46px;background:#E4DED3;margin:0 8px"></div>
+    <div style="display:flex;flex-direction:column;gap:3px">
+      <div class="lbl">Kínder 2 · Matemáticas</div>
+      <div style="font-size:27px;font-weight:700;line-height:1.1">Contar objetos hasta 10</div>
+    </div>
+    <div style="flex:1"></div>
+    <div style="font-size:19px;font-weight:600;color:#78736B">Tema 3 de 6</div>
+  </div>
+
+  <div style="height:96px;flex-shrink:0;display:flex;background:#fff;border-bottom:3px solid #E4DED3">
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;gap:12px;font-size:24px;font-weight:700;color:#78736B;border-right:3px solid #E4DED3">
+      <svg viewBox="0 0 24 24" width="28" height="28" class="ic"><rect x="2.5" y="4" width="19" height="13.5" rx="2.5"/><path d="M8.5 21h7M12 17.5V21"/></svg>
+      Proyectar
+    </div>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;gap:12px;font-size:24px;font-weight:700;color:#78736B;border-right:3px solid #E4DED3">
+      <svg viewBox="0 0 24 24" width="28" height="28" class="ic"><circle cx="8" cy="8" r="4.6"/><rect x="13" y="13" width="8.5" height="8.5" rx="2.2"/></svg>
+      Actividad
+    </div>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;gap:12px;font-size:24px;font-weight:700;color:#78736B;border-right:3px solid #E4DED3">
+      <svg viewBox="0 0 24 24" width="28" height="28" class="ic"><path d="M12 7c-2-1.6-4.4-2.2-7-2v11c2.6-.2 5 .4 7 2"/><path d="M12 7c2-1.6 4.4-2.2 7-2v11c-2.6-.2-5 .4-7 2"/><path d="M12 7v11"/></svg>
+      Guía
+    </div>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;gap:12px;font-size:24px;font-weight:700;background:#2F6FB3;color:#fff">
+      <svg viewBox="0 0 24 24" width="28" height="28" class="ic"><rect x="4" y="5" width="16" height="16.5" rx="2.5"/><path d="M9 2.5h6v3.5H9z"/><path d="M8.6 13l2.6 2.6 4.4-5"/></svg>
+      Registro
+    </div>
+  </div>
+
+  <div style="flex:1;display:flex;flex-direction:column;padding:24px 40px 26px">
+
+    <div style="display:flex;align-items:center;margin-bottom:16px">
+      <div style="font-size:36px;font-weight:700">¿Cómo le fue a cada niño?</div>
+      <div style="flex:1"></div>
+      <div style="font-size:21px;font-weight:600;color:#78736B;margin-right:20px">10 de 12 marcados</div>
+      <div style="display:flex;align-items:center;gap:10px;height:56px;padding:0 26px;border-radius:16px;background:#2F6FB3;color:#fff;font-size:21px;font-weight:700">
+        <svg viewBox="0 0 24 24" width="22" height="22" class="ic" style="stroke-width:2.6"><path d="M5 12.5l4.5 4.5L19 7"/></svg>
+        Guardar
+      </div>
+    </div>
+
+    <div style="display:flex;gap:22px;margin-bottom:20px">
+      <div style="display:flex;align-items:center;gap:11px;height:46px;padding:0 18px;border-radius:13px;background:#EAF3ED">
+        <div style="width:34px;height:26px;border-radius:8px;background:#3E8E5A;color:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="16" height="16" class="ic" style="stroke-width:3.4"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div style="font-size:19px;font-weight:700;color:#2E6B43">Logrado</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:11px;height:46px;padding:0 18px;border-radius:13px;background:#F9F0E1">
+        <div style="width:34px;height:26px;border-radius:8px;background:#C98A2E;color:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="16" height="16" class="ic" style="stroke-width:3.4"><path d="M6 12h12"/></svg></div>
+        <div style="font-size:19px;font-weight:700;color:#96661D">En proceso</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:11px;height:46px;padding:0 18px;border-radius:13px;background:#EAF1F9">
+        <div style="width:34px;height:26px;border-radius:8px;background:#2F6FB3;color:#fff;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" width="16" height="16" class="ic" style="stroke-width:3.4"><path d="M12 6v12M6 12h12"/></svg></div>
+        <div style="font-size:19px;font-weight:700;color:#22527F">Necesita apoyo</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:16px 40px">
+
+      <div class="fila">
+        <div class="nom">Samuel Ríos</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Tomás Herrera</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Valentina Ochoa</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Antonella Ruiz</div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn" style="background:#C98A2E;border-color:#C98A2E;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Matías Correa</div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn" style="background:#C98A2E;border-color:#C98A2E;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Martín Salazar</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Isabella Gómez</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Sofía Cárdenas</div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Emiliano Pérez</div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn" style="background:#2F6FB3;border-color:#2F6FB3;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Gabriel Muñoz</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Luciana Vargas</div>
+        <div class="btn" style="background:#3E8E5A;border-color:#3E8E5A;color:#fff"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+      <div class="fila">
+        <div class="nom">Mariana Trujillo</div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M6 12h12"/></svg></div>
+        <div class="btn"><svg viewBox="0 0 24 24" width="24" height="24" class="ic" style="stroke-width:3"><path d="M12 6v12M6 12h12"/></svg></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

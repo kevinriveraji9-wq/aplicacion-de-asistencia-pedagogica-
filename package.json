@@ -1,0 +1,16 @@
+{
+  "name": "aula-kinder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Asistente pedagógico para docentes de kínder",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node pruebas/recorrido.js",
+    "vista": "node pruebas/vista-previa.js && node pruebas/servidor.js"
+  },
+  "devDependencies": {
+    "electron": "^44.3.0",
+    "jsdom": "^30.0.1"
+  }
+}

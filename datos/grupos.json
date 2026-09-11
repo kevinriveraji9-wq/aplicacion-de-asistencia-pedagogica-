@@ -1,0 +1,25 @@
+{
+  "_nota": "Grupos del colegio. Nombres de ejemplo — reemplázalos por los reales. Sigue abierta la pregunta de cómo se llena esta lista sin teclado (ver prd.md).",
+
+  "grupos": [
+    {
+      "id": "k2-a",
+      "nombre": "Kínder 2 A",
+      "grado": "kinder-2",
+      "estudiantes": [
+        { "id": "e01", "nombre": "Samuel Ríos" },
+        { "id": "e02", "nombre": "Tomás Herrera" },
+        { "id": "e03", "nombre": "Valentina Ochoa" },
+        { "id": "e04", "nombre": "Antonella Ruiz" },
+        { "id": "e05", "nombre": "Matías Correa" },
+        { "id": "e06", "nombre": "Martín Salazar" },
+        { "id": "e07", "nombre": "Isabella Gómez" },
+        { "id": "e08", "nombre": "Sofía Cárdenas" },
+        { "id": "e09", "nombre": "Emiliano Pérez" },
+        { "id": "e10", "nombre": "Gabriel Muñoz" },
+        { "id": "e11", "nombre": "Luciana Vargas" },
+        { "id": "e12", "nombre": "Mariana Trujillo" }
+      ]
+    }
+  ]
+}

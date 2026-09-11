@@ -1,0 +1,54 @@
+{
+  "id": "numeros-6-al-10",
+  "titulo": "Los números del 6 al 10",
+  "orden": 2,
+  "duracionMin": 25,
+  "dimension": "cognitiva",
+
+  "guia": {
+    "objetivo": "Que el niño reconozca los números del 6 al 10 y continúe la serie desde el cinco sin volver a empezar en uno.",
+    "queDecir": [
+      "Ya conocemos hasta el cinco. Hoy seguimos: seis, siete, ocho, nueve y diez.",
+      "Empieza a contar desde el cinco, no desde el uno. Cinco… y sigue tú."
+    ],
+    "preguntas": [
+      "¿Qué número está entre el siete y el nueve?",
+      "Si tengo seis globos y me dan uno más, ¿cuántos tengo?"
+    ],
+    "erroresComunes": [
+      "Se salta el siete al recitar la serie. Practiquen la serie despacio y con palmas en cada número.",
+      "Cuenta bien hasta diez pero no reconoce el número escrito. Muestra la tarjeta y la cantidad juntas."
+    ],
+    "materiales": [
+      "Tarjetas de números del 6 al 10",
+      "Diez fichas o tapas"
+    ]
+  },
+
+  "laminas": [
+    { "tipo": "numero", "numero": 6, "palabra": "seis", "objeto": "globo" },
+    { "tipo": "numero", "numero": 7, "palabra": "siete", "objeto": "globo" },
+    { "tipo": "numero", "numero": 8, "palabra": "ocho", "objeto": "globo" },
+    { "tipo": "numero", "numero": 9, "palabra": "nueve", "objeto": "globo" },
+    { "tipo": "numero", "numero": 10, "palabra": "diez", "objeto": "globo" }
+  ],
+
+  "actividades": [
+    {
+      "tipo": "contar-elegir",
+      "pregunta": "¿Cuántos globos hay?",
+      "objeto": "globo",
+      "cantidad": 7,
+      "opciones": [6, 7, 8],
+      "respuesta": 7
+    },
+    {
+      "tipo": "contar-elegir",
+      "pregunta": "¿Cuántas pelotas hay?",
+      "objeto": "pelota",
+      "cantidad": 9,
+      "opciones": [8, 9, 10],
+      "respuesta": 9
+    }
+  ]
+}

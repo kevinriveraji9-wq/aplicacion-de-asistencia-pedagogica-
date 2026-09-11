@@ -1,0 +1,66 @@
+{
+  "id": "contar-objetos-hasta-10",
+  "titulo": "Contar objetos hasta 10",
+  "orden": 3,
+  "duracionMin": 25,
+  "dimension": "cognitiva",
+
+  "guia": {
+    "objetivo": "Que el niño cuente colecciones de hasta 10 objetos y diga cuántos hay sin volver a contar desde el principio.",
+    "queDecir": [
+      "Vamos a contar juntos. Toca cada manzana con el dedo y dime el número en voz alta.",
+      "¿Y cuántas hay en total? No vuelvas a contar, solo dime el último número que dijiste."
+    ],
+    "preguntas": [
+      "¿Dónde hay más: en la fila de arriba o en la de abajo? ¿Cómo lo sabes?",
+      "Si quito una, ¿cuántas quedan? ¿Tienes que contar todo otra vez?"
+    ],
+    "erroresComunes": [
+      "Recita los números de memoria pero salta objetos al señalar. Pídele que toque uno por uno.",
+      "Cuenta bien pero al preguntar «¿cuántas hay?» vuelve a contar desde uno. Es lo que hay que practicar en este tema."
+    ],
+    "materiales": [
+      "Fichas o tapas de colores",
+      "Una bolsa de tela",
+      "Las tarjetas de números del salón"
+    ]
+  },
+
+  "laminas": [
+    { "tipo": "texto", "texto": "Vamos a contar", "pie": "Toca cada objeto una sola vez" },
+    { "tipo": "numero", "numero": 3, "palabra": "tres", "objeto": "manzana" },
+    { "tipo": "numero", "numero": 5, "palabra": "cinco", "objeto": "manzana" },
+    { "tipo": "numero", "numero": 6, "palabra": "seis", "objeto": "pelota" },
+    { "tipo": "numero", "numero": 7, "palabra": "siete", "objeto": "manzana" },
+    { "tipo": "numero", "numero": 8, "palabra": "ocho", "objeto": "estrella" },
+    { "tipo": "numero", "numero": 10, "palabra": "diez", "objeto": "globo" },
+    { "tipo": "texto", "texto": "El último número que dices es cuántos hay", "pie": "" }
+  ],
+
+  "actividades": [
+    {
+      "tipo": "contar-elegir",
+      "pregunta": "¿Cuántos globos hay?",
+      "objeto": "globo",
+      "cantidad": 6,
+      "opciones": [5, 6, 7],
+      "respuesta": 6
+    },
+    {
+      "tipo": "contar-elegir",
+      "pregunta": "¿Cuántas manzanas hay?",
+      "objeto": "manzana",
+      "cantidad": 8,
+      "opciones": [7, 8, 9],
+      "respuesta": 8
+    },
+    {
+      "tipo": "contar-elegir",
+      "pregunta": "¿Cuántas estrellas hay?",
+      "objeto": "estrella",
+      "cantidad": 10,
+      "opciones": [9, 10, 11],
+      "respuesta": 10
+    }
+  ]
+}

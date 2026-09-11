@@ -1,0 +1,60 @@
+{
+  "id": "agua-y-tierra",
+  "titulo": "Los que viven en el agua y en la tierra",
+  "orden": 1,
+  "duracionMin": 30,
+  "dimension": "cognitiva",
+
+  "guia": {
+    "objetivo": "Que el niño agrupe seres vivos según dónde viven, y explique por qué los puso ahí.",
+    "queDecir": [
+      "Vamos a separar: unos viven en el agua y otros crecen en la tierra.",
+      "Antes de poner cada uno, dime por qué va ahí."
+    ],
+    "preguntas": [
+      "¿El pez podría vivir en la tierra? ¿Por qué no?",
+      "¿Conoces algún animal que viva en los dos lados?"
+    ],
+    "erroresComunes": [
+      "Clasifica por color o por tamaño en vez de por dónde vive. Pregúntale «¿dónde vive?» en cada ficha.",
+      "Acierta pero no sabe explicar por qué. La explicación es lo que se está aprendiendo aquí, insiste con calma."
+    ],
+    "materiales": [
+      "Láminas o juguetes de animales y plantas",
+      "Dos aros o cajas para separar en el piso"
+    ]
+  },
+
+  "laminas": [
+    { "tipo": "texto", "texto": "¿Dónde vive cada uno?", "pie": "En el agua o en la tierra" },
+    { "tipo": "objetos", "objeto": "pez", "cantidad": 3, "pie": "Estos viven en el agua" },
+    { "tipo": "objetos", "objeto": "flor", "cantidad": 3, "pie": "Estas crecen en la tierra" },
+    { "tipo": "objetos", "objeto": "hoja", "cantidad": 3, "pie": "Estas también son de la tierra" }
+  ],
+
+  "actividades": [
+    {
+      "tipo": "clasificar",
+      "pregunta": "¿Dónde va cada uno?",
+      "canastas": [
+        { "id": "agua", "nombre": "En el agua" },
+        { "id": "tierra", "nombre": "En la tierra" }
+      ],
+      "fichas": [
+        { "objeto": "pez", "canasta": "agua" },
+        { "objeto": "flor", "canasta": "tierra" },
+        { "objeto": "pez", "canasta": "agua" },
+        { "objeto": "hoja", "canasta": "tierra" }
+      ]
+    },
+    {
+      "tipo": "seleccionar",
+      "pregunta": "¿Cuál de estos vive en el agua?",
+      "opciones": [
+        { "objeto": "flor" },
+        { "objeto": "pez", "correcta": true },
+        { "objeto": "hoja" }
+      ]
+    }
+  ]
+}

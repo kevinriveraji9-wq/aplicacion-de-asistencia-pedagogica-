@@ -1,0 +1,68 @@
+{
+  "id": "las-vocales",
+  "titulo": "Las vocales",
+  "orden": 1,
+  "duracionMin": 25,
+  "dimension": "comunicativa",
+
+  "guia": {
+    "objetivo": "Que el niño reconozca las cinco vocales por su forma y por su sonido, y las distinga entre sí.",
+    "queDecir": [
+      "Estas cinco letras son las vocales. Todas las palabras que decimos las llevan.",
+      "Abre la boca como si fueras a decir aaaa. Ahora mira: así se escribe."
+    ],
+    "preguntas": [
+      "¿Con qué vocal empieza tu nombre?",
+      "¿Qué otras cosas del salón empiezan con la o?"
+    ],
+    "erroresComunes": [
+      "Confunde la mayúscula con la minúscula y cree que son letras distintas. Muéstralas juntas y di que son la misma.",
+      "Repite las cinco de memoria en orden pero no reconoce una suelta. Sácalas desordenadas."
+    ],
+    "materiales": [
+      "Las tarjetas de vocales del salón",
+      "Un espejo pequeño para que vean su boca"
+    ]
+  },
+
+  "laminas": [
+    { "tipo": "texto", "texto": "Las vocales", "pie": "A · E · I · O · U" },
+    { "tipo": "letra", "letra": "A", "palabra": "araña" },
+    { "tipo": "letra", "letra": "E", "palabra": "estrella", "objeto": "estrella", "cantidad": 1 },
+    { "tipo": "letra", "letra": "I", "palabra": "iglesia" },
+    { "tipo": "letra", "letra": "O", "palabra": "oso" },
+    { "tipo": "letra", "letra": "U", "palabra": "uva" }
+  ],
+
+  "actividades": [
+    {
+      "tipo": "seleccionar",
+      "pregunta": "¿Cuál es la letra A?",
+      "apoyo": "La que abre la boca grande",
+      "opciones": [
+        { "texto": "E" },
+        { "texto": "A", "correcta": true },
+        { "texto": "O" }
+      ]
+    },
+    {
+      "tipo": "seleccionar",
+      "pregunta": "¿Cuál es la letra U?",
+      "opciones": [
+        { "texto": "U", "correcta": true },
+        { "texto": "I" },
+        { "texto": "E" }
+      ]
+    },
+    {
+      "tipo": "seleccionar",
+      "pregunta": "¿Cuál de estas NO es una vocal?",
+      "apoyo": "Solo hay cinco vocales",
+      "opciones": [
+        { "texto": "O" },
+        { "texto": "M", "correcta": true },
+        { "texto": "I" }
+      ]
+    }
+  ]
+}

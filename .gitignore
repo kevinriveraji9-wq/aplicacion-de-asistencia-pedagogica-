@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+# Generado por pruebas/vista-previa.js con los datos del disco.
+pruebas/vista-previa.html
+
+# El registro de observación es dato del salón, no del repositorio.
+datos/registro.json
+
+.trellis/.developer
+.trellis/.runtime/

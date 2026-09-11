@@ -1,0 +1,35 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",       "title": "1 · Inicio — elegir grado",        "x": 0,    "y": 0,    "w": 1440, "h": 900 },
+    { "file": "Materias.dc.html",   "title": "2 · Materias de Kínder 2",         "x": 1560, "y": 0,    "w": 1440, "h": 900 },
+    { "file": "Temas.dc.html",      "title": "3 · Temas de Matemáticas",         "x": 3120, "y": 0,    "w": 1440, "h": 900 },
+    { "file": "Guia.dc.html",       "title": "4 · Sala de clase — Guía",         "x": 0,    "y": 1160, "w": 1440, "h": 900 },
+    { "file": "Proyectar.dc.html",  "title": "5 · Sala de clase — Proyectar",    "x": 1560, "y": 1160, "w": 1440, "h": 900 },
+    { "file": "Actividad.dc.html",  "title": "6 · Sala de clase — Actividad",    "x": 3120, "y": 1160, "w": 1440, "h": 900 },
+    { "file": "Registro.dc.html",   "title": "7 · Sala de clase — Registro",     "x": 4680, "y": 1160, "w": 1440, "h": 900 }
+  ],
+  "annotations": [
+    {
+      "id": "nota-navegacion",
+      "x": 0,
+      "y": -190,
+      "w": 900,
+      "text": "NAVEGACIÓN — tres clics del inicio a la clase.\nCada pantalla es una sola decisión: grado, luego materia, luego tema. Nada más compite por la atención."
+    },
+    {
+      "id": "nota-sala",
+      "x": 0,
+      "y": 950,
+      "w": 900,
+      "text": "SALA DE CLASE — los cuatro paneles del MISMO tema.\nEl profesor entra en Guía, proyecta, hace la actividad y cierra con el registro, sin salir del tema."
+    },
+    {
+      "id": "nota-mouse",
+      "x": 4680,
+      "y": -190,
+      "w": 700,
+      "text": "SOLO MOUSE\nNingún campo de texto. Un solo clic, nunca doble.\nObjetivos de 100px o más donde hace clic un niño."
+    }
+  ],
+  "launch": { "view": "canvas" }
+}

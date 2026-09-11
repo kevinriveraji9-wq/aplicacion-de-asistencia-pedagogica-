@@ -1,0 +1,56 @@
+{
+  "id": "el-sonido-inicial",
+  "titulo": "El sonido inicial",
+  "orden": 2,
+  "duracionMin": 25,
+  "dimension": "comunicativa",
+
+  "guia": {
+    "objetivo": "Que el niño identifique con qué sonido empieza una palabra, antes de saber leerla.",
+    "queDecir": [
+      "Escucha: mmmmanzana. ¿Cuál es el primer sonido que oíste?",
+      "No importa cómo se escribe. Solo escucha el principio de la palabra."
+    ],
+    "preguntas": [
+      "¿Tu nombre y el de tu compañero empiezan con el mismo sonido?",
+      "Dime otra cosa que empiece como pppelota."
+    ],
+    "erroresComunes": [
+      "Dice el nombre de la letra en vez del sonido («eme» en vez de «mmm»). Modela el sonido alargándolo.",
+      "Repite la palabra entera en vez de aislar el principio. Divídela tú primero y que él la complete."
+    ],
+    "materiales": [
+      "Objetos del salón cuyos nombres empiecen distinto",
+      "Una bolsa para sacarlos de a uno"
+    ]
+  },
+
+  "laminas": [
+    { "tipo": "texto", "texto": "¿Con qué sonido empieza?", "pie": "Escucha el principio de la palabra" },
+    { "tipo": "letra", "letra": "M", "palabra": "manzana", "objeto": "manzana", "cantidad": 1 },
+    { "tipo": "letra", "letra": "P", "palabra": "pelota", "objeto": "pelota", "cantidad": 1 },
+    { "tipo": "letra", "letra": "F", "palabra": "flor", "objeto": "flor", "cantidad": 1 },
+    { "tipo": "letra", "letra": "G", "palabra": "globo", "objeto": "globo", "cantidad": 1 }
+  ],
+
+  "actividades": [
+    {
+      "tipo": "seleccionar",
+      "pregunta": "¿Cuál empieza con el sonido mmm?",
+      "opciones": [
+        { "objeto": "pelota" },
+        { "objeto": "manzana", "correcta": true },
+        { "objeto": "flor" }
+      ]
+    },
+    {
+      "tipo": "seleccionar",
+      "pregunta": "¿Cuál empieza con el sonido fff?",
+      "opciones": [
+        { "objeto": "flor", "correcta": true },
+        { "objeto": "globo" },
+        { "objeto": "estrella" }
+      ]
+    }
+  ]
+}
